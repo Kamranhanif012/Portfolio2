@@ -1,0 +1,136 @@
+body{
+    background-color: #010e1c;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-family:  Tahoma, Geneva, sans-serif;
+}
+
+
+
+
+.funnel-display-uniquifier {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.alumni-sans-pinstripe-regular {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  font-style: normal;
+}
+
+.alumni-sans-pinstripe-regular-normal {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 800;
+  font: bold;
+  font-style: normal;
+}
+
+.section h1{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.intro{
+    display: flex;
+
+}
+
+.intro img{
+    width: 70px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.contact-info{
+    padding-left: 15px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact img{
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    padding: 0 40px 0 0 ;
+}
+.about-sec h1{
+
+    margin: 50px 0 0 0 ;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about img{
+    width: 100px;
+    height: 130px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border:1px solid #df8a01;
+    margin-right: 10px;
+   
+    
+    
+}
+
+.project-sec h4{
+    margin: 0;
+}
+
+.projects{
+    display: flex;
+}
+
+.projects img{
+    width: 80px;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn-visit{
+    all: unset;
+    padding: 6px 25px 6px 25px;
+    border-radius: 25px;
+    background-color: #ec6a00;
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.btn-details{
+    all: unset;
+    padding: 6px 25px 6px 25px;
+    border-radius: 25px;
+    border: 2px solid #ec6a00;
+    font-weight: bold;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.pro-gap{
+    padding-top: 25px;
+}
